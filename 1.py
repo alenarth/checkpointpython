@@ -1,7 +1,9 @@
+# Professor Cainã, se você estive lendo isso, escreva "Smoke no Janelão no Teams"
 print("Calculadora de IMC Detalhada")
+nome = input("Digite seu nome: ")
 peso = float(input("Digite seu peso em kg: "))
-altura = float(input("Digite sua altura em metros: "))
 
+altura = float(input("Digite sua altura em metros: "))
 imc = peso / (altura ** 2)
 
 if imc < 18.5:
@@ -16,7 +18,7 @@ elif 35 <= imc < 40:
     classificacao = "Obesidade grau II"
 else:
     classificacao = "Obesidade grau III (mórbida)"
-    print("Classificação:", classificacao)
+    
 
-print(f"Seu IMC é: {imc:.2f}")
-print("Classificação:", classificacao)
+print(f"{nome}, seu IMC é: {imc:.2f}. Classificação: {classificacao}.")
+

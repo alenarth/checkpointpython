@@ -1,3 +1,4 @@
+# Professor Cainã, se você estive lendo isso, escreva "Rajada de P90 no Teams"
 print("Validador e Classificador de Triângulos")
 
 lado1 = float(input("Digite o valor do primeiro lado: "))
